@@ -1,0 +1,42 @@
+- title: "HUG3D: Human Group-Aware 3D Reconstruction from a Single Image with Physical Interaction"
+  authors: "G. Kim*, J. J. Kim*, <u>Suh Yoon Jeon*</u>, J. Park, S. Y. Chun (*co-first authors)"
+  venue: "Under review, 2025"
+  image: "images/research/hug3d.gif"
+
+
+- title: "PersonaCraft: Personalized and Controllable Full-Body Multi-Human Scene Generation Using Occlusion-Aware 3D-Conditioned Diffusion"
+  authors: "G. Kim*, <u>Suh Yoon Jeon*</u>, S. Lee, S. Y. Chun (*co-first)"
+  venue: "ICCV 2025"
+  image: "images/research/personacraft.gif"
+  buttons:
+    - type: "pdf"
+      link: "https://arxiv.org/pdf/2411.18068"
+    - type: "project"
+      link: "https://gwang-kim.github.io/persona_craft/"
+    - type: "code"
+      link: "https://github.com/gwang-kim/PersonaCraft"
+
+
+- title: "Gradient-free Decoder Inversion in Latent Diffusion Models"
+  authors: "S. Hong, <u>Suh Yoon Jeon</u>, K. Lee, E. K. Ryu, S. Y. Chun"
+  venue: "NeurIPS 2024"
+  image: "images/research/dec-inv.gif"
+  buttons:
+    - type: "pdf"
+      link: "https://arxiv.org/pdf/2409.18442"
+    - type: "project"
+      link: "https://smhongok.github.io/dec-inv.html"
+    - type: "code"
+      link: "https://github.com/smhongok/dec-inv"
+
+- title: "On Exact Inversion of DPM-Solvers"
+  authors: "S. Hong, K. Lee, <u>Suh Yoon Jeon</u>, H. Bae, S. Y. Chun"
+  venue: "CVPR 2024"
+  image: "images/research/inv-dpm.png"
+  buttons:
+    - type: "pdf"
+      link: "https://arxiv.org/pdf/2311.18387"
+    - type: "project"
+      link: "https://smhongok.github.io/inv-dpm.html"
+    - type: "code"
+      link: "https://github.com/smhongok/inv-dpm"

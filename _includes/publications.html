@@ -1,0 +1,37 @@
+<div class="projects-container">
+    {% for pub in site.data.publications %}
+    <div class="project-card" style="display:flex; align-items:flex-start; margin-bottom:2rem;">
+  
+      <!-- 썸네일 -->
+      {% if pub.image %}
+      <div class="project-thumb" style="flex:0 0 220px; margin-right:1.2rem;">
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" style="border-radius:8px; width:100%; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      </div>
+      {% endif %}
+  
+      <!-- 텍스트 -->
+      <div class="project-info" style="flex:1;">
+        <h3 style="margin-top:0; margin-bottom:0.3rem;">{{ pub.title }}</h3>
+        <p style="margin-bottom:0.3rem;">{{ pub.authors }}</p>
+        <p style="font-style:italic; color:#aaa; margin-bottom:0.5rem;">{{ pub.venue }}</p>
+  
+        <!-- 버튼 -->
+        {% if pub.buttons %}
+        <div class="buttons" style="margin-top:0.4rem;">
+          {% for button in pub.buttons %}
+          {% if button.type == "pdf" %}
+          <a class="btn btn--small" href="{{ button.link }}">PDF</a>
+          {% elsif button.type == "project" %}
+          <a class="btn btn--small" href="{{ button.link }}">Project page</a>
+          {% elsif button.type == "code" %}
+          <a class="btn btn--small" href="{{ button.link }}">Code</a>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+  
+    </div>
+    {% endfor %}
+  </div>
+  
