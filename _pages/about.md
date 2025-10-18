@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-:wave: Hi! I’m SuhYoon Jeon, a Ph.D. student in Electrical and Computer Engineering at [Seoul National University](https://en.snu.ac.kr/index.html) (SNU), advised by [Prof. Se Young Chun](https://icl.snu.ac.kr/pi) in the [Intelligent Computational imaging Lab](https://icl.snu.ac.kr) (ICL). I earned my B.S degree in Electrical and Computer Engineering at Seoul National University (SNU).
+:wave: Hi! I’m SuhYoon Jeon, a Ph.D. student in Electrical and Computer Engineering at <a href="https://en.snu.ac.kr" target="_blank" rel="noopener noreferrer">Seoul National University</a> (SNU), advised by <a href="https://icl.snu.ac.kr/pi" target="_blank" rel="noopener noreferrer">Prof. Se Young Chun</a> in the <a href="https://icl.snu.ac.kr" target="_blank" rel="noopener noreferrer">Intelligent Computational imaging Lab</a> (ICL). I earned my B.S degree in Electrical and Computer Engineering at Seoul National University (SNU).
 
 Research
 ======

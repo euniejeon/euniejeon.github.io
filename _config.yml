@@ -17,6 +17,7 @@ url                      : https://euniejeon.github.io # The base hostname & pro
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "euniejeon/euniejeon.github.io"
+
 # minimal_mistakes_skin: "default"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -31,6 +32,7 @@ author:
   employer         : "ICL, Seoul National University"
   uri              : # URL
   email            : "euniejeon@snu.ac.kr" 
+  cv               : "files/CV-suhyoonjeon-251017.pdf"
 
   # Academic websites
   academia         : # URL

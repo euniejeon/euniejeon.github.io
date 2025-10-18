@@ -141,5 +141,18 @@ $(document).ready(function () {
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
-
+  
+  document.querySelectorAll('a[href]').forEach((el) => {
+    const href = el.getAttribute('href');
+    if (!href) return;
+    if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+  
+    // 현재 도메인(host)와 다르면 외부 링크
+    const a = document.createElement('a');
+    a.href = href;
+    if (a.host && a.host !== window.location.host) {
+      el.setAttribute('target', '_blank');
+      el.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
 });
